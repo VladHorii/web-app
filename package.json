@@ -1,0 +1,19 @@
+{
+  "name": "web-app-basics",
+  "version": "0.0.1",
+  "description": "First web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Vlad Horii <vladhorii@yandex.ru>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
